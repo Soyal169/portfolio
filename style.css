@@ -1,0 +1,100 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+header {
+  background-color: #1f1f1f;
+  padding: 30px 0; /* Increased padding */
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+header a:hover {
+  color: #e91e63;
+}
+
+.navbar-brand img {
+  max-width: 70px; /* Increased image size */
+  margin-right: 15px; /* Increased margin */
+}
+
+.section-title {
+  margin-top: 50px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+}
+
+#about,
+#experience,
+#skills,
+#projects,
+#contact {
+  padding: 80px 0;
+}
+
+#about {
+  background-color: #2c2c2c;
+  text-align: center;
+}
+
+.card {
+  background-color: #1f1f1f;
+  border: none;
+  border-radius: 10px;
+  /* Remove the hover effects */
+  transition: none;
+}
+
+.card h5,
+.card p {
+  color: #ffffff;
+}
+
+.progress {
+  height: 10px;
+  background-color: #333;
+  border-radius: 5px;
+}
+
+.progress-bar {
+  position: relative;
+  text-align: center;
+  line-height: 10px; /* Adjust according to the height of the progress bar */
+}
+.percentage-text {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.75rem; /* Adjust font size as needed */
+}
+
+footer {
+  background-color: #1f1f1f;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+footer a {
+  color: #e91e63;
+  text-decoration: none;
+}
+
+.experience-item {
+  margin-bottom: 30px;
+}
+
+.experience-item h5 {
+  font-weight: 700;
+}
